@@ -15,6 +15,9 @@ repositories {
 dependencies {
     testImplementation(kotlin("test"))
     compileOnly("org.projectlombok:lombok:1.18.34")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1")
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.10.2")
+
 }
 
 tasks.test {

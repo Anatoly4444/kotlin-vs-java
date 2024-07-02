@@ -1,8 +1,5 @@
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 
-
-fun main(args: Array<String>) {
-    println(runCatching { nullSafety() }.isFailure)
-    println(functionLiteralsWithReceiver2())
-    fail()
-}
+fun main(args: Array<String>) {}
 

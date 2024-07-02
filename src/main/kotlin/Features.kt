@@ -1,11 +1,4 @@
-fun nullSafety() {
-    // nullable type
-    val s: String? = null
-    // require '?'
-    val name = s?.let { KotExample.method1(it) } ?: ""
-    //throws Exception in java code
-    JavaExample.method1(s)
-}
+
 
 fun functionLiteralsWithReceiver() : List<Boolean>{
     val isEven: Int.() -> Boolean = { this % 2 == 0 }
